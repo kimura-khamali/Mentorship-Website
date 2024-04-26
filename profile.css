@@ -1,48 +1,9 @@
-
-/****************SIGN UP****************************************/
-
-.required:after {
-  content: " *";
-  color: red;
-}
-
-.form {
-  display: flex;
-  gap: 5px;
-  margin-left: 20px;
-}
-input {
-  padding: 15px 80px;
-  border-radius: 10px;
-  border: solid black 3px;
-  gap: 20px;
-  text-align: center;
-}
-
-.input {
-  border-radius: 10px;
-
-}
-
-.signUp_button {
-  justify-content: center;
-}
-
-h1 {
-  text-align: center;
-  margin: 0, auto;
-}
-
-.container1 {
-  text-align: center;
-}
-
 /***************************index**************/
 .logo {
   margin-right: 20%;
   padding: 10px 40px;
-  width: 10%;
-  height: 5%;
+  width: 90px;
+  height: 30px;
 }
 
 body {
@@ -97,7 +58,6 @@ body {
   border-radius: 20px;
   gap: 20px;
   width: 300px;
- 
 }
 
 .signing_container {
@@ -106,9 +66,7 @@ body {
   gap: 15%;
 }
 
-/*
-
-/******************************************************/
+/*/**********************/
 
 .mentor_img {
   border-radius: 30px;
@@ -117,24 +75,22 @@ body {
   justify-content: center;
 }
 
-
-
 .mentor {
   display: flex;
   gap: 20px;
   justify-content: center;
 }
+
 /********************************************************dropdown*********************/
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: burlywood;
+  background-color: #f4f0d9;
 }
 
 .navbar {
   overflow: hidden;
   background-color: grey;
- 
 }
 
 .navbar a {
@@ -147,7 +103,6 @@ body {
 }
 
 .dropdown {
-
   overflow: hidden;
 }
 
@@ -172,7 +127,6 @@ body {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-
 }
 
 .dropdown-content a {
@@ -192,39 +146,6 @@ body {
   display: block;
 }
 
-/*********************************************login*************/
-
-.form_contains {
-  text-align: center;
-}
-
-
-
-
-/*********************To Do list***********************/
-
-.link_button {
-  padding: 20px;
-  border-radius: 10px;
-  width: 80px;
-}
-
-.container_for_to_do_list {
-  border: 1px solid black;
-  text-align: center;
-}
-
-.checkox {
-  display: flex;
-}
-
-.add_item {
-  background-color: gray;
-  justify-content: center;
-  padding: 20px;
-  border-radius: 30px;
-}
-
 /****************************************************************************footer********************/
 
 .footer {
@@ -232,16 +153,8 @@ body {
   background-color: grey;
   color: white;
   padding: 110px;
-  gap: 30ps;
-}
-
-.fa {
-  padding: 30px;
-  font-size: 30px;
-  width: 40px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 10%;
+  gap: 30px;
+  margin-top: 200px;
 }
 
 .fa-github {
@@ -251,6 +164,8 @@ body {
 
 .fa-instagram {
   background: #125688;
+  width: 90px;
+  height: 20px;
   color: white;
 }
 
@@ -271,6 +186,7 @@ body {
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
+  border-radius: 10%;
 }
 
 .fa:hover {
@@ -284,4 +200,97 @@ body {
 
 textarea {
   width: 900px;
+}
+/**************************************************/
+
+@media screen and (min-width: 250px) and (max-width: 400px) {
+  .footer {
+    flex-wrap: wrap;
+    padding: 120px;
+    gap: 70px;
+    margin-top: 90px;
+    margin-right: 100%;
+  }
+
+  .mentor_img {
+    border-radius: 30px;
+    width: 70%;
+    height: 300px;
+    justify-content: center;
+  }
+
+  .mentor {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .mentor_img {
+    border-radius: 30px;
+    width: 70%;
+    height: 300px;
+    justify-content: center;
+  }
+
+  .mentor {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .footer {
+    flex-wrap: wrap;
+    padding: 190px;
+    gap: 12x;
+    margin-top: 90px;
+    margin-right: 100%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .mentor_img {
+    border-radius: 30px;
+    width: 70%;
+    height: 300px;
+    justify-content: center;
+  }
+
+  .mentor {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+  }
+
+  .footer {
+    display: flex;
+    padding: 150px;
+    gap: 12x;
+    margin-top: 90px;
+    margin-right: 100%;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .mentor_img {
+    border-radius: 30px;
+    width: 70%;
+    height: 300px;
+    justify-content: center;
+  }
+
+  .mentor {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+  }
+
+  .footer {
+    display: flex;
+    padding: 150px;
+    gap: 12x;
+    margin-top: 90px;
+    margin-right: 100%;
+  }
 }

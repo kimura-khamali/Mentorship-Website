@@ -1,41 +1,4 @@
 
-/****************SIGN UP****************************************/
-
-.required:after {
-  content: " *";
-  color: red;
-}
-
-.form {
-  display: flex;
-  gap: 5px;
-  margin-left: 20px;
-}
-input {
-  padding: 15px 80px;
-  border-radius: 10px;
-  border: solid black 3px;
-  gap: 20px;
-  text-align: center;
-}
-
-.input {
-  border-radius: 10px;
-
-}
-
-.signUp_button {
-  justify-content: center;
-}
-
-h1 {
-  text-align: center;
-  margin: 0, auto;
-}
-
-.container1 {
-  text-align: center;
-}
 
 /***************************index**************/
 .logo {
@@ -54,6 +17,7 @@ body {
 .container {
   display: flex;
   gap: 80px;
+  text-align: center;
 }
 
 .navbar ul {
@@ -97,7 +61,7 @@ body {
   border-radius: 20px;
   gap: 20px;
   width: 300px;
- 
+  /* list-style-type: none; */
 }
 
 .signing_container {
@@ -106,35 +70,16 @@ body {
   gap: 15%;
 }
 
-/*
-
-/******************************************************/
-
-.mentor_img {
-  border-radius: 30px;
-  width: 20%;
-  height: 300px;
-  justify-content: center;
-}
-
-
-
-.mentor {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-}
 /********************************************************dropdown*********************/
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: burlywood;
+  background-color: #f4f0d9;
 }
 
 .navbar {
   overflow: hidden;
   background-color: grey;
- 
 }
 
 .navbar a {
@@ -147,14 +92,14 @@ body {
 }
 
 .dropdown {
-
+  float: left;
   overflow: hidden;
 }
 
 .dropdown .dropbtn {
   font-size: 16px;
   border: none;
-
+  outline: none;
   color: white;
   padding: 14px 16px;
   background-color: inherit;
@@ -172,7 +117,6 @@ body {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-
 }
 
 .dropdown-content a {
@@ -191,38 +135,25 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+/****************************************************************/
 
-/*********************************************login*************/
-
-.form_contains {
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
   text-align: center;
 }
-
-
-
-
-/*********************To Do list***********************/
-
-.link_button {
+.welcome-container {
+  margin-top: 100px;
   padding: 20px;
-  border-radius: 10px;
-  width: 80px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-.container_for_to_do_list {
-  border: 1px solid black;
-  text-align: center;
+h1 {
+  color: #333;
 }
-
-.checkox {
-  display: flex;
-}
-
-.add_item {
-  background-color: gray;
-  justify-content: center;
-  padding: 20px;
-  border-radius: 30px;
+p {
+  color: #666;
 }
 
 /****************************************************************************footer********************/
@@ -232,7 +163,8 @@ body {
   background-color: grey;
   color: white;
   padding: 110px;
-  gap: 30ps;
+  gap: 30px;
+  margin-top: 235px;
 }
 
 .fa {

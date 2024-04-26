@@ -1,39 +1,8 @@
-
-/****************SIGN UP****************************************/
-
-.required:after {
-  content: " *";
-  color: red;
-}
-
-.form {
-  display: flex;
-  gap: 5px;
-  margin-left: 20px;
-}
-input {
-  padding: 15px 80px;
-  border-radius: 10px;
-  border: solid black 3px;
-  gap: 20px;
+.h1 {
   text-align: center;
 }
 
-.input {
-  border-radius: 10px;
-
-}
-
-.signUp_button {
-  justify-content: center;
-}
-
-h1 {
-  text-align: center;
-  margin: 0, auto;
-}
-
-.container1 {
+.h3 {
   text-align: center;
 }
 
@@ -54,6 +23,7 @@ body {
 .container {
   display: flex;
   gap: 80px;
+  text-align: center;
 }
 
 .navbar ul {
@@ -97,7 +67,6 @@ body {
   border-radius: 20px;
   gap: 20px;
   width: 300px;
- 
 }
 
 .signing_container {
@@ -106,35 +75,16 @@ body {
   gap: 15%;
 }
 
-/*
-
-/******************************************************/
-
-.mentor_img {
-  border-radius: 30px;
-  width: 20%;
-  height: 300px;
-  justify-content: center;
-}
-
-
-
-.mentor {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-}
 /********************************************************dropdown*********************/
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: burlywood;
+  background-color: #f4f0d9;
 }
 
 .navbar {
   overflow: hidden;
   background-color: grey;
- 
 }
 
 .navbar a {
@@ -147,7 +97,7 @@ body {
 }
 
 .dropdown {
-
+  float: left;
   overflow: hidden;
 }
 
@@ -172,7 +122,6 @@ body {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-
 }
 
 .dropdown-content a {
@@ -190,39 +139,6 @@ body {
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-/*********************************************login*************/
-
-.form_contains {
-  text-align: center;
-}
-
-
-
-
-/*********************To Do list***********************/
-
-.link_button {
-  padding: 20px;
-  border-radius: 10px;
-  width: 80px;
-}
-
-.container_for_to_do_list {
-  border: 1px solid black;
-  text-align: center;
-}
-
-.checkox {
-  display: flex;
-}
-
-.add_item {
-  background-color: gray;
-  justify-content: center;
-  padding: 20px;
-  border-radius: 30px;
 }
 
 /****************************************************************************footer********************/
