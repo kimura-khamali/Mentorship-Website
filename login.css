@@ -291,3 +291,48 @@ textarea {
     width: 100px;
   }
 }
+
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  input {
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: solid black 3px;
+    gap: 20px;
+    text-align: center;
+  }
+  .container1{
+    border: 1px solid black;
+    /* width: 50px; */
+    padding: 110px;
+    margin: 2px;
+    margin-left: 2%;
+    margin-right: 2%;
+    /* margin-top: 30%; */
+    background-color: #f9f9f9;
+  }
+  /* .sign_button {
+    padding: 2px;
+    color: black;
+    border-radius: 20px;
+    gap: 10px;
+    width: 30px;
+  
+  }
+   */
+  .signing_container {
+    margin: 100px;
+    display: flex;
+    gap: 10%;
+  }
+  .form_contains {
+    text-align: left;
+  }
+  
+  .login_button {
+    background-color: gray;
+    padding: 10px;
+    border-radius: 30px;
+    width: 100px;
+  }
+}
