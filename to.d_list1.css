@@ -1,3 +1,8 @@
+body {
+  background-color: lightcyan;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -19,7 +24,7 @@
 }
 
 .todo-app{
-    background-color: #fff;
+    background-color: plum;
     width: 100%;
     padding: 20px 20px;
     margin-top: 40px;
@@ -99,11 +104,11 @@ button:hover{
     text-decoration: line-through;
 }
 #list_container .checked::before{
-    background-image: url(img/check.png);
+    background-image: url(https://hbr.org/resources/images/article_assets/2021/01/A_Jan21_13_1165885864-1.jpg);
     border: none;
 }
  #list_container:hover{
-    background-color: #d4d4d4;
+    background-color: blue;
     border-radius: 30px;
 }
 

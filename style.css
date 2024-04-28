@@ -33,6 +33,26 @@ h1 {
   margin: 0, auto;
 }
 
+#freeform {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  /* display: block; */
+}
+
+button {
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: grey;
+  color: white;
+  margin-top:20px;
+  /* justify-content: center; */
+}
+
+.align {
+  text-align: center;
+}
 .container1 {
   text-align: center;
 }
@@ -134,6 +154,7 @@ body {
 .navbar {
   overflow: hidden;
   background-color: grey;
+
  
 }
 
