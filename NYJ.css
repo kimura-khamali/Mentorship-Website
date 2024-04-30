@@ -11,8 +11,13 @@ button {
   background-color: grey;
   color: white;
   text-align: center;
-  text-decoration: none;
-  justify-content: center;
+  /* text-decoration: none; */
+  /* justify-content: center; */
+  /* margin-left: 20px; */
+}
+
+.check {
+   text-align: center;
 }
 .summary_container{
   text-align: justify;
