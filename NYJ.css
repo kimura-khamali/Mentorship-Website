@@ -14,6 +14,10 @@ button {
   text-decoration: none;
   justify-content: center;
 }
+.summary_container{
+  text-align: justify;
+  margin-left: 25%;
+}
 
 body {
   background-color: lightcyan;
