@@ -11,6 +11,8 @@ button {
   background-color: grey;
   color: white;
   text-align: center;
+  text-decoration: none;
+  justify-content: center;
 }
 
 body {
