@@ -7,11 +7,17 @@
 }
 
 /***************************index**************/
-.logo {
+/* .logo {
   margin-right: 20%;
   padding: 10px 40px;
   width: 10%;
   height: 5%;
+} */
+.logo {
+  margin-right: 20%;
+  padding: 10px 10px;
+  width: 20%;
+  height: 30%;
 }
 
 body {
@@ -481,8 +487,8 @@ textarea {
 .img {
   margin-left: 5px;
   width: 250px;
-  height: 500px;
-  gap: 10px;
+  height: 700px;
+  gap: 10qpx;
 }
 .container2 {
   margin-top: 50px;

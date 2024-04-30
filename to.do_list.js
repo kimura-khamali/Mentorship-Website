@@ -35,7 +35,7 @@ function addTask(){
 
 //===== when click listcontainer =======
 
-listContainer.addEventListener('click',(e)=>{
+/*listContainer.addEventListener('click',(e)=>{
     //when you click the task in the container, it mark as checked.
     // also you can uncheck
     if(e.target.tagName === 'LI'){
@@ -50,7 +50,7 @@ listContainer.addEventListener('click',(e)=>{
         //that changes shoud be saved in the local storage
         saveData();
     }
-})
+})*/
 //------------------------------------------------------------------------
 //=====this function is used to save data in local storage.=====
 function saveData(){

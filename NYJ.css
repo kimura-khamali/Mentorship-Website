@@ -16,3 +16,17 @@ button {
 body {
   background-color: lightcyan;
 }
+
+.img_container {
+  /* width:30px;
+  padding: 12px;
+  text-align: center; */
+}
+
+@media screen and (min-width: 200) and(max-width:400){
+  .img_container {
+    /* width:30px;
+    padding: 12px;
+    text-align: center; */
+  }
+}
