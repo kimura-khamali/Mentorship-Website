@@ -21,7 +21,7 @@ button {
 }
 .summary_container{
   text-align: justify;
-  margin-left: 25%;
+  margin-left: 2%;
 }
 
 body {
@@ -34,10 +34,99 @@ body {
   text-align: center; */
 }
 
-@media screen and (min-width: 200) and(max-width:400){
+/* @media screen and (min-width: 200px) and(max-width:400px){ */
+  @media screen  and (max-width: 480px){
   .img_container {
     /* width:30px;
     padding: 12px;
     text-align: center; */
+  }
+}
+
+
+/* @media screen and (min-width: 400px) and(max-width:600px){ */
+  @media screen  and (min-width: 481px) and (max-width:767px){
+  .img_container {
+    /* width:30px;
+    padding: 12px;
+    text-align: center; */
+  }
+  .summary_container{
+    text-align: end;
+    margin-left: 1%;
+  }
+}
+
+
+/* @media screen and (min-width: 1000px) and(max-width:1200px){ */
+  @media screen  and (min-width: 768px) and (max-width:991px){
+  .img_container {
+    /* width:30px;
+    padding: 12px;
+    text-align: center; */
+  }
+  .summary_container{
+    /* text-align: ; */
+    margin-left: 1%;
+  }
+  .book_container {
+    text-align: center;
+    padding-left: 10px;
+  
+    /* background-color: #f4f0d9; */
+  }
+}
+
+@media screen  and (min-width: 992px) and (max-width:1199px){
+  .img_container {
+    /* width:30px;
+    padding: 12px;
+    text-align: center; */
+  }
+  .summary_container{
+    text-align: end;
+    margin-left: 1%;
+  }
+  .book_container {
+    text-align: center;
+    padding-left: 10px;
+  
+    /* background-color: #f4f0d9; */
+  }
+}
+
+@media screen  and (min-width: 1200px) and (max-width:1919px){
+  .img_container {
+    /* width:30px;
+    padding: 12px;
+    text-align: center; */
+  }
+  .summary_container{
+    text-align: end;
+    margin-left: 1%;
+  }
+  .book_container {
+    text-align: center;
+    padding-left: 10px;
+  
+    /* background-color: #f4f0d9; */
+  }
+}
+
+@media screen and (max-width:1920px){
+  .img_container {
+    /* width:30px;
+    padding: 12px;
+    text-align: center; */
+  }
+  .summary_container{
+    text-align: center;
+    margin-left: 1%;
+  }
+  .book_container {
+    text-align: center;
+    padding-left: 10px;
+  
+    /* background-color: #f4f0d9; */
   }
 }

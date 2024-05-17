@@ -229,6 +229,7 @@ textarea {
 }
 
 @media screen and (min-width: 200px) and (max-width: 250px) {
+  /* @media screen  and (max-width: 480px){ */
   .navbar ul {
     /* list-style-type: none;
     padding: 0; */
@@ -357,9 +358,9 @@ textarea {
   .container {
     flex-wrap: wrap;
     /* display: flex; */
-    /* gap: 80px;
-    text-align: center; */
-    /* margin-top: 190px; */
+     gap: 50px;
+   /* text-align: center; */
+    margin-top: 10px;
   }
   .h1 {
     text-align: left;
@@ -369,7 +370,7 @@ textarea {
     text-align: left;
   }
   .signing_container {
-    margin: 10px;
+    margin: 100x;
     /* display: flex; */
     gap: 15px;
     flex-wrap: wrap;
@@ -468,13 +469,13 @@ textarea {
   /* display: flex; */
   /* flex-wrap: wrap; */
 }
-*/ .container {
+.container {
   /* flex-wrap: wrap; */
   display: flex;
   gap: 80px;
   text-align: center;
   /* gap: 20px; */
-  margin-top: 50px;
+  margin-top: 10px;
 }
 .h1 {
   text-align: left;
@@ -489,25 +490,25 @@ textarea {
   gap: 15px;
   /* flex-wrap: wrap; */
 }
-.img {
+.imgs {
   margin-left: 5px;
-  width: 250px;
-  height: 700px;
-  gap: 10qpx;
+  width: 350px;
+  height: 1200px;
+  gap: 5px;
 }
 .container2 {
   margin-top: 50px;
 }
 
-.footer {
+/*.footer {
   flex-wrap: wrap;
   /* display: flex; */
   /* background-color: grey; */
   /* color: white; */
-  /* padding: 120px; */
+  /* padding: 120px; 
   gap: 70px;
   margin-top: 420px;
-}
+}*/
 .sign_button {
   /* padding: 20px; */
   /* background-color: grey; */
